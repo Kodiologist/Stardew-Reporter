@@ -75,7 +75,7 @@ Usage
 
 The program is tested with save files produced by Stardew Valley 1.06.
 
-`Download the compiled program`__, and if you're on Windows, install `Python 2.7`_ if you haven't already. Edit the value of ``FARMER_ID`` near the top of the program to match the name of the save file, which will be of the form ``[Name of your character]_[Some number]``; look in your save folder for the exact name. Unless you're on Windows, you'll also need to edit ``SAVES_DIR`` to point to the directory with your save files in it. Now you can run the program, which on Windows you can accomplish by right-clicking the file and choosing "Edit with IDLE", then choosing the menu option "Run Module". On Unix-likes, the command ``python stardew-reporter.py`` will suffice.
+`Download the compiled program`__, and if you're on Windows, install `Python 2.7`_ if you haven't already. Edit the value of ``FARMER_ID`` near the top of the program to match the name of the save file, which will be of the form ``[Name of your character]_[Some number]``; look in your save folder for the exact name. Unless you're on Windows, you'll also need to edit ``SAVES_DIR`` to point to the directory with your save files in it. Now you can run the program, which on Windows you can accomplish by right-clicking the file and choosing "Edit with IDLE", then choosing the menu option "Run Module". On Unix-likes, the command ``python stardew_reporter.py`` will suffice.
 
 __ http://arfer.net/downloads/stardew_reporter.zip
 
@@ -100,5 +100,5 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 .. _`Stardew Valley`: http://stardewvalley.net
 .. _`Python 2.7`: https://www.python.org/
 .. _Hy: http://hylang.org
-.. _Kodhy: https://github.com/Kodiologist/Kodhy.. 
+.. _Kodhy: https://github.com/Kodiologist/Kodhy
 .. _`GNU General Public License`: http://www.gnu.org/licenses/
